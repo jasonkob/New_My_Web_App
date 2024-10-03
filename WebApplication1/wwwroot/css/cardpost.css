@@ -7,11 +7,30 @@
     margin-top: 60px;
     gap: 20px;
     flex: 1;
+    position: relative;
 }
 
+.createpos {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.button-createpost {
+    padding: 10px 20px;
+    background-color: white;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button-createpost:hover {
+    background-color: #0056b3;
+}
 .card {
     width: 80%;
-    max-width: 800px;
+    max-width: 1000px;
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
@@ -20,6 +39,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    background-color: #bcc5e4;
 }
 
 .close-button {
@@ -118,16 +138,16 @@
     padding: 10px;
     border-top: 1px solid #ccc;
 }
-
+.card-comment form{
+    width: 100%;
+}
 .card-comment input {
-    width: 75%;
+    width: 90%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-<<<<<<< HEAD
-=======
     margin-left: 5px;
->>>>>>> parent of 2397f8c (Merge pull request #12 from WongsatornS/pppp)
+    background-color: white;
 }
 
 .card-comment button {
